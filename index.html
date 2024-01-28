@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
+    <audio id="gameStartSound" src="/assets/gamestart.mp3"></audio>
+    <audio id="jumpSound" src="/assets/jumpsound.mp3"></audio>
+    <audio id="explosionSound" src="/assets/hit-someting.mp3"></audio>
+    
+
+</head>
+<body>
+    <header>
+        <h1>Akta dig för duvan. Använda space-tangenten för att hoppa med flygplanet.</h1>
+        <button id="startGameBtn">Starta spelet</button>
+    </header>
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p class="paragrafScore">Poäng: <span id="scoreSpan"></span></p>
+    <script src="script.js"></script>
+</body>
+</html>
